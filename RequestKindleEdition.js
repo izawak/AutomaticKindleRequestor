@@ -25,7 +25,7 @@ function request_tag()
   var a;
   for(i = 0; i < allLinks.length; i++){
     a = allLinks[i];
-    if(a.href.match(rke) && a.href.match(/a=(\d+)/)){
+    if(a.href.match(rke) && a.href.match(/a=(\w+)/)){
       return a;
     }
   }
