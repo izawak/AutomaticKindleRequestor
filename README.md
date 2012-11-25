@@ -13,3 +13,8 @@ NOTES
 -----
 * このようなものを使用するとAmazonにspamとみなされた場合何をされるか分かりません。
 あくまでもご自分の責任でどうぞ。
+
+HOW TO USE
+----------
+AutomaticKindleRequestor.safariextz をダブルクリックしてインストール後、Amazonを
+訪れるだけです。
