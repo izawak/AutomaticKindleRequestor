@@ -1,7 +1,7 @@
 // Request-Kindle-Edition by @izawak
 
-rke = new RegExp("/request-kindle-edition/");
-req = false;
+var rke = new RegExp("/request-kindle-edition/");
+var req = false;
 
 if(!document.URL.match(rke)){
   var reqTag = request_tag();
@@ -23,7 +23,7 @@ function request_tag()
 {
   var allLinks = document.getElementsByTagName("a");
   var a;
-  for(i = 0; i < allLinks.length; i++){
+  for(var i = 0; i < allLinks.length; i++){
     a = allLinks[i];
     if(a.href.match(rke) && a.href.match(/a=(\w+)/)){
       return a;
